@@ -1,0 +1,53 @@
+﻿/* Header styles */
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+/* Navbar styles*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #047faa;
+    position: fixed;
+    top: -12px;
+    width: 100%;
+    left: -10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: #047faa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 30px;
+}
+
+.container-fluid.bg-dark.text-white {
+    color: white;
+}
+

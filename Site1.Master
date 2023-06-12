@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.UI.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Alpha Market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Controllers/site.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder runat="server" ID="head" />
+</head>
+<body>
+
+       <ul>
+           <li><a href="default.asp">Home</a></li>
+
+           <li style="float:right"><a class="active" href="Cart.asp">Cart</a></li>
+           <li style="float:right"><a class="active" href="profile.asp">Profile</a></li>
+
+          
+       </ul>
+
+  <br />
+
+
+
+        <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+
+  <br />
+
+
+        <footer>
+            <div class="container-fluid bg-dark text-white">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>Alpha Market</h4>
+                        <p>A one-stop-shop for all your grocery needs.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>Contact Us</h4>
+                        <p>Email: info@alphamarket.com</p>
+                        <p>Phone: 01020262690</p>
+                    </div>
+               </div>
+           </div>
+       </footer>
+
+            
+
+
+    </body>
+</html>
+
+
